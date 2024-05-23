@@ -179,7 +179,7 @@ header{
 /*Care Page*/
 .care-box {
     display: flex;
-    flex-direction: row;
+    flex-flow: row wrap;
     justify-content: space-evenly; 
     margin: 20px;
 }
@@ -217,6 +217,7 @@ header{
 /*About Page*/
 .about-box {
     display: flex;
+    flex-flow: row wrap;
     justify-content: space-evenly;
     margin: 20px;
 }
@@ -362,7 +363,7 @@ footer {
     }
 
     #row2{
-        display: none;
+        display: flex-end;
     }
 }
 
@@ -385,7 +386,7 @@ footer {
     }
 
     #row2{
-        display: none;
+        display: flex-end;
     }
 }
 
