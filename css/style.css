@@ -160,7 +160,7 @@ header{
 
 .gallery-box {
     display: flex;
-    flex-direction: row;
+    flex-flow: row wrap;
     justify-content: space-evenly;
 }
 
@@ -364,6 +364,12 @@ footer {
 
     #row2{
         display: flex-end;
+        width: 100vw
+    }
+    
+    #row3{
+        display: flex-end;
+        width: 100vw
     }
 }
 
@@ -387,6 +393,12 @@ footer {
 
     #row2{
         display: flex-end;
+        width: 100vw
+    }
+    
+    #row3{
+        display: flex-end;
+        width: 100vw
     }
 }
 
